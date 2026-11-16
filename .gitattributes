@@ -1,0 +1,4 @@
+# Los scripts que corren dentro del contenedor (Linux) deben quedar con fin de línea LF,
+# aunque el repositorio se edite en Windows; con CRLF, run.sh falla al arrancar.
+*.sh text eol=lf
+Dockerfile text eol=lf
